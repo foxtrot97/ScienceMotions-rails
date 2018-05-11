@@ -12,7 +12,7 @@ ruby '2.4.2'
 
 gem 'rails', '~> 5.1.4'
 gem "react_on_rails", "11.0.0"
-gem "webpacker", "~> 3.0"
+gem 'webpacker', '>= 4.0.x'
 
 # Use sqlite3 as the database for Active Record
 group :production do
