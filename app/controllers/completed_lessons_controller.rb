@@ -16,6 +16,7 @@ class CompletedLessonsController < ApplicationController
   # GET /completed_lessons/new
   def new
     @completed_lesson = CompletedLesson.new
+    render 'completed_lessons'    
   end
 
   # GET /completed_lessons/1/edit
