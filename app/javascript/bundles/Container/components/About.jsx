@@ -47,7 +47,6 @@ export default class About extends React.Component {
             <div className="col-lg-12">
                 <div className="header">
                     <h1>ScienceMotions</h1>
-                    <p>Biology, chemistry and physics lessons from the future.</p>
                     <p><a href="#">see more</a></p>
                 </div>
             </div>
