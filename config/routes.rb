@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   resources :completed_lessons
   resources :lessons
   resources :indicators
+  resources :chemistry
   devise_for :users
   resources :users do
     resources :completed_lessons

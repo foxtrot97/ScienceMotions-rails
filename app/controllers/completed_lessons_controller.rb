@@ -27,7 +27,7 @@ class CompletedLessonsController < ApplicationController
   # POST /completed_lessons.json
   def create
     @completed_lesson = CompletedLesson.new(completed_lesson_params)
-    @completed_lesson.user = current_user
+    # @completed_lesson.user = current_user
     @completed_lesson.save
 
     respond_to do |format|
